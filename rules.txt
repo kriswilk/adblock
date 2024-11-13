@@ -1,9 +1,10 @@
 ! Title: Kris Wilk's Ads & Annoyances List
-! Version: 1.0
+! Version: 1.1
 ! Homepage: https://github.com/kriswilk/adblock
 !
 ! EBAY - LISTINGS
 ! promoted content
+ebay.*##.x-pda-placements
 ebay.*##.x-rx-slot
 ebay.*##.x-rx-slot-btf
 ! financing offers
