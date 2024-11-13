@@ -1,0 +1,25 @@
+! Title: Kris Wilk's Ads & Annoyances List
+! Version: 1.0
+! Homepage: https://github.com/kriswilk/adblock
+!
+! EBAY - LISTINGS
+! promoted content
+ebay.*##.x-rx-slot
+ebay.*##.x-rx-slot-btf
+! financing offers
+ebay.*##.x-financing-info
+ebay.*##.d-payments-minview
+! money back guarantee
+ebay.*##.x-shop-with-confidence
+! content below item description
+ebay.*##.x-evo-btf-river
+!
+! EBAY - SEARCH
+! picked for you
+ebay.*##.srp-river-answer[class*="CAROUSEL"]:not([class*="NAVIGATION"])
+! related searches, recently viewed
+ebay.*##.srp-main-below-river
+!
+! EBAY - OTHER
+! feature notices
+ebay.*##.m-product-tour
