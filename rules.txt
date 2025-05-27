@@ -24,3 +24,5 @@ ebay.*##.srp-main-below-river
 ! EBAY - OTHER
 ! feature notices
 ebay.*##.m-product-tour
+! watchlist - similar items
+ebay.*##.stream-slot
