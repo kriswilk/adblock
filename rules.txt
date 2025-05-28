@@ -1,38 +1,35 @@
 ! Title: Kris Wilk's Ads & Annoyances List
-! Version: 1.3
+! Version: 1.4
 ! Homepage: https://github.com/kriswilk/adblock
 !
-! EBAY - ANTI-ADBLOCK
-||ir.ebaystatic.com/cr/ads/$script,domain=ebay.*
+! ---------- EBAY ----------
+! Suppress sponsored/promoted items, financing offers, reviews and other unsolicited content at eBay.
 !
-! EBAY - LISTINGS
-! promoted content
-ebay.*##.x-pda-placements
-ebay.*##.x-rx-slot
-! additional services
+! NB: Some promoted content is protected by anti-adblock scripts that shunt the content into shadow DOM.
+!     To evade this, we move affected content off-screen instead of blocking it.
+!
+! Listings
+ebay.*##.x-pda-placements:style(position: absolute!important; left: -9999px!important;)
+ebay.*##.x-rx-slot:style(position: absolute!important; left: -9999px!important;)
 ebay.*###vas-container
-! financing offers
 ebay.*##.x-financing-info
 ebay.*##.x-financing-details
 ebay.*##.d-payments-minview
-! money back guarantee
 ebay.*##.x-shop-with-confidence
-! content below item description
 ebay.*##.x-evo-btf-seller-card-river
 ebay.*##.x-evo-btf-river
-!
-! EBAY - SEARCH
-! picked for you, related, viewed
+! Search Results
 ebay.*##.srp-river-answer[class*="ITEMS_CAROUSEL"]
 ebay.*##.srp-main-below-river
-!
-! EBAY - OTHER
-! feature notices
+! Other Annoyances
 ebay.*##.m-product-tour
-! watchlist - similar items
 ebay.*##.stream-slot
-! footers
 ebay.*##.x-footer
 ebay.*##.global-footer
 ebay.*##.custom-footer
 ebay.*##.footer-panel-container
+!
+! ---------- FLIPPAH ----------
+! Emphasize the "Last Visit" Separator
+!
+flippah.net##.history-last-visit:style(border-bottom: 40px solid red;)
