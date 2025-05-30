@@ -1,14 +1,15 @@
 ! Title: Kris Wilk's Ads & Annoyances List
-! Version: 1.5
+! Version: 1.6
 ! Homepage: https://github.com/kriswilk/adblock
 !
 ! ---------- EBAY ----------
-! Suppress sponsored/promoted items, financing offers, reviews and other unsolicited content at eBay.
+! Suppress sponsored/promoted items, financing offers, reviews and other unwanted content at eBay.
 ! To evade anti-adblock measures, some content is moved off-screen instead of being blocked.
 !
 ! Listings
 ebay.*##.x-pda-placements:style(position: absolute!important; left: -9999px!important;)
 ebay.*##.x-rx-slot:style(position: absolute!important; left: -9999px!important;)
+ebay.*##.x-ebay-live-banner
 ebay.*###vas-container
 ebay.*##.x-financing-info
 ebay.*##.x-financing-details
