@@ -1,5 +1,5 @@
 ! Title: Kris Wilk's Ads & Annoyances List
-! Version: 1.6
+! Version: 1.7
 ! Homepage: https://github.com/kriswilk/adblock
 !
 ! ---------- EBAY ----------
@@ -19,6 +19,8 @@ ebay.*##.x-evo-btf-river
 ! Search Results
 ebay.*##.srp-river-answer[class*="ITEMS_CAROUSEL"]
 ebay.*##.srp-main-below-river
+! Order Details
+ebay.*##.vod-ads-placement
 ! Other Annoyances
 ebay.*##.m-product-tour
 ebay.*##.stream-slot
