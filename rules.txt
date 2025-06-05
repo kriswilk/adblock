@@ -1,6 +1,11 @@
 ! Title: Kris Wilk's Ads & Annoyances List
-! Version: 1.7
+! Version: 1.8
 ! Homepage: https://github.com/kriswilk/adblock
+!
+! ---------- AMAZON ----------
+!
+! App promotion banner (mobile site)
+amazon.*###nav-app-banner-container
 !
 ! ---------- EBAY ----------
 ! Suppress sponsored/promoted items, financing offers, reviews and other unwanted content at eBay.
@@ -30,6 +35,6 @@ ebay.*##.custom-footer
 ebay.*##.footer-panel-container
 !
 ! ---------- FLIPPAH ----------
-! Emphasize the "Last Visit" Separator
 !
+! Emphasize the "Last Visit" Separator
 flippah.net##.history-last-visit:style(border-bottom: 40px solid red;)
