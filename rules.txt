@@ -1,5 +1,5 @@
 ! Title: Kris Wilk's Ads & Annoyances List
-! Version: 1.8
+! Version: 1.9
 ! Homepage: https://github.com/kriswilk/adblock
 !
 ! ---------- AMAZON ----------
@@ -21,6 +21,13 @@ ebay.*##.x-financing-details
 ebay.*##.d-payments-minview
 ebay.*##.x-shop-with-confidence
 ebay.*##.x-evo-btf-river
+! Listings (mobile)
+ebay.*##.seo-interlink
+ebay.*##.x-seo-footer
+ebay.*##.x-seo-related-search
+ebay.*##.x-financing
+ebay.*##.x-cobranded-card
+ebay.*##.ifh-container
 ! Search Results
 ebay.*##.srp-river-answer[class*="ITEMS_CAROUSEL"]
 ebay.*##.srp-main-below-river
