@@ -1,5 +1,5 @@
 ! Title: Kris Wilk's Ads & Annoyances List
-! Version: 1.10
+! Version: 1.10.1
 ! Homepage: https://github.com/kriswilk/adblock
 !
 ! ---------- AMAZON ----------
@@ -48,4 +48,4 @@ flippah.net##.history-last-visit:style(border-bottom: 40px solid red;)
 ! ---------- KIJIJI ----------
 !
 ! Remove banners, mobile app promotion
-kijiji.ca##.div[class^="banner"]
+kijiji.ca##div[class^="banner"]
