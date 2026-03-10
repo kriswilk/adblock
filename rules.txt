@@ -5,41 +5,40 @@
 ! ---------- AMAZON ----------
 !
 ! App promotion banner (mobile site)
-amazon.ca###nav-app-banner-container
-amazon.com###nav-app-banner-container
+amazon.com,amazon.ca###nav-app-banner-container
 !
 ! ---------- EBAY ----------
 !
 ! Listings
 ! To evade anti-adblock measures, some content is moved off-screen instead of being blocked.
-ebay.com##.x-pda-placements:style(position: absolute!important; left: -9999px!important;)
-ebay.com##.x-rx-slot:style(position: absolute!important; left: -9999px!important;)
-ebay.com##.x-ebay-live-banner
-ebay.com###vas-container
-ebay.com##.x-financing-info
-ebay.com##.x-financing-details
-ebay.com##.d-payments-minview
-ebay.com##.x-shop-with-confidence
-ebay.com##.x-evo-btf-river
+ebay.com,ebay.ca##.x-pda-placements:style(position: absolute!important; left: -9999px!important;)
+ebay.com,ebay.ca##.x-rx-slot:style(position: absolute!important; left: -9999px!important;)
+ebay.com,ebay.ca##.x-ebay-live-banner
+ebay.com,ebay.ca###vas-container
+ebay.com,ebay.ca##.x-financing-info
+ebay.com,ebay.ca##.x-financing-details
+ebay.com,ebay.ca##.d-payments-minview
+ebay.com,ebay.ca##.x-shop-with-confidence
+ebay.com,ebay.ca##.x-evo-btf-river
 ! Listings (mobile)
-ebay.com##.seo-interlink
-ebay.com##.x-seo-footer
-ebay.com##.x-seo-related-search
-ebay.com##.x-financing
-ebay.com##.x-cobranded-card
-ebay.com##.ifh-container
+ebay.com,ebay.ca##.seo-interlink
+ebay.com,ebay.ca##.x-seo-footer
+ebay.com,ebay.ca##.x-seo-related-search
+ebay.com,ebay.ca##.x-financing
+ebay.com,ebay.ca##.x-cobranded-card
+ebay.com,ebay.ca##.ifh-container
 ! Search Results
-ebay.com##.srp-river-answer[class*="ITEMS_CAROUSEL"]
-ebay.com##.srp-main-below-river
+ebay.com,ebay.ca##.srp-river-answer[class*="ITEMS_CAROUSEL"]
+ebay.com,ebay.ca##.srp-main-below-river
 ! Order Details
-ebay.com##.vod-ads-placement
+ebay.com,ebay.ca##.vod-ads-placement
 ! Other Annoyances
-ebay.com##.m-product-tour
-ebay.com##.stream-slot
-ebay.com##.x-footer
-ebay.com##.global-footer
-ebay.com##.custom-footer
-ebay.com##.footer-panel-container
+ebay.com,ebay.ca##.m-product-tour
+ebay.com,ebay.ca##.stream-slot
+ebay.com,ebay.ca##.x-footer
+ebay.com,ebay.ca##.global-footer
+ebay.com,ebay.ca##.custom-footer
+ebay.com,ebay.ca##.footer-panel-container
 !
 ! ---------- FLIPPAH ----------
 !
