@@ -1,44 +1,45 @@
 ! Title: Kris Wilk's Ads & Annoyances List
-! Version: 1.10.1
+! Version: 1.10.2
 ! Homepage: https://github.com/kriswilk/adblock
 !
 ! ---------- AMAZON ----------
 !
 ! App promotion banner (mobile site)
-amazon.*###nav-app-banner-container
+amazon.ca###nav-app-banner-container
+amazon.com###nav-app-banner-container
 !
 ! ---------- EBAY ----------
 !
 ! Listings
 ! To evade anti-adblock measures, some content is moved off-screen instead of being blocked.
-ebay.*##.x-pda-placements:style(position: absolute!important; left: -9999px!important;)
-ebay.*##.x-rx-slot:style(position: absolute!important; left: -9999px!important;)
-ebay.*##.x-ebay-live-banner
-ebay.*###vas-container
-ebay.*##.x-financing-info
-ebay.*##.x-financing-details
-ebay.*##.d-payments-minview
-ebay.*##.x-shop-with-confidence
-ebay.*##.x-evo-btf-river
+ebay.com##.x-pda-placements:style(position: absolute!important; left: -9999px!important;)
+ebay.com##.x-rx-slot:style(position: absolute!important; left: -9999px!important;)
+ebay.com##.x-ebay-live-banner
+ebay.com###vas-container
+ebay.com##.x-financing-info
+ebay.com##.x-financing-details
+ebay.com##.d-payments-minview
+ebay.com##.x-shop-with-confidence
+ebay.com##.x-evo-btf-river
 ! Listings (mobile)
-ebay.*##.seo-interlink
-ebay.*##.x-seo-footer
-ebay.*##.x-seo-related-search
-ebay.*##.x-financing
-ebay.*##.x-cobranded-card
-ebay.*##.ifh-container
+ebay.com##.seo-interlink
+ebay.com##.x-seo-footer
+ebay.com##.x-seo-related-search
+ebay.com##.x-financing
+ebay.com##.x-cobranded-card
+ebay.com##.ifh-container
 ! Search Results
-ebay.*##.srp-river-answer[class*="ITEMS_CAROUSEL"]
-ebay.*##.srp-main-below-river
+ebay.com##.srp-river-answer[class*="ITEMS_CAROUSEL"]
+ebay.com##.srp-main-below-river
 ! Order Details
-ebay.*##.vod-ads-placement
+ebay.com##.vod-ads-placement
 ! Other Annoyances
-ebay.*##.m-product-tour
-ebay.*##.stream-slot
-ebay.*##.x-footer
-ebay.*##.global-footer
-ebay.*##.custom-footer
-ebay.*##.footer-panel-container
+ebay.com##.m-product-tour
+ebay.com##.stream-slot
+ebay.com##.x-footer
+ebay.com##.global-footer
+ebay.com##.custom-footer
+ebay.com##.footer-panel-container
 !
 ! ---------- FLIPPAH ----------
 !
