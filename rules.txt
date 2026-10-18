@@ -1,5 +1,6 @@
 ! Title: Kris Wilk's Ads & Annoyances List
 ! Version: 1.12
+! Expires: 12 hours
 ! Homepage: https://github.com/kriswilk/adblock
 !
 ! ---------- AMAZON ----------
@@ -10,8 +11,9 @@ amazon.com,amazon.ca###nav-app-banner-container
 ! ---------- EBAY ----------
 !
 ! Listings
-ebay.com,ebay.ca##.x-pda-placements
-ebay.com,ebay.ca##.x-rx-slot
+! To evade anti-adblock measures, some content is moved off-screen instead of being blocked.
+ebay.com,ebay.ca##.x-pda-placements:style(position: absolute!important; left: -9999px!important;)
+ebay.com,ebay.ca##.x-rx-slot:style(position: absolute!important; left: -9999px!important;)
 ebay.com,ebay.ca##.x-ebay-live-banner
 ebay.com,ebay.ca###vas-container
 ebay.com,ebay.ca##.x-financing-info
