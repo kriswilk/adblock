@@ -1,5 +1,5 @@
 ! Title: Kris Wilk's Ads & Annoyances List
-! Version: 1.10.2
+! Version: 1.11
 ! Homepage: https://github.com/kriswilk/adblock
 !
 ! ---------- AMAZON ----------
@@ -39,6 +39,7 @@ ebay.com,ebay.ca##.x-footer
 ebay.com,ebay.ca##.global-footer
 ebay.com,ebay.ca##.custom-footer
 ebay.com,ebay.ca##.footer-panel-container
+ebay.com,ebay.ca##.dp-live-events-carousel
 !
 ! ---------- FLIPPAH ----------
 !
