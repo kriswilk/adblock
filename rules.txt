@@ -1,5 +1,5 @@
 ! Title: Kris Wilk's Ads & Annoyances List
-! Version: 1.11
+! Version: 1.12
 ! Homepage: https://github.com/kriswilk/adblock
 !
 ! ---------- AMAZON ----------
@@ -10,9 +10,8 @@ amazon.com,amazon.ca###nav-app-banner-container
 ! ---------- EBAY ----------
 !
 ! Listings
-! To evade anti-adblock measures, some content is moved off-screen instead of being blocked.
-ebay.com,ebay.ca##.x-pda-placements:style(position: absolute!important; left: -9999px!important;)
-ebay.com,ebay.ca##.x-rx-slot:style(position: absolute!important; left: -9999px!important;)
+ebay.com,ebay.ca##.x-pda-placements
+ebay.com,ebay.ca##.x-rx-slot
 ebay.com,ebay.ca##.x-ebay-live-banner
 ebay.com,ebay.ca###vas-container
 ebay.com,ebay.ca##.x-financing-info
@@ -40,11 +39,6 @@ ebay.com,ebay.ca##.global-footer
 ebay.com,ebay.ca##.custom-footer
 ebay.com,ebay.ca##.footer-panel-container
 ebay.com,ebay.ca##.dp-live-events-carousel
-!
-! ---------- FLIPPAH ----------
-!
-! Emphasize the "Last Visit" Separator
-flippah.net##.history-last-visit:style(border-bottom: 40px solid red;)
 !
 ! ---------- KIJIJI ----------
 !
