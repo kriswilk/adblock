@@ -1,5 +1,5 @@
 ! Title: Kris Wilk's Ads & Annoyances List
-! Version: 1.12
+! Version: 1.13
 ! Expires: 12 hours
 ! Homepage: https://github.com/kriswilk/adblock
 !
